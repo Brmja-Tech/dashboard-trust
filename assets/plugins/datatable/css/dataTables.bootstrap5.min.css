@@ -8,6 +8,14 @@
     justify-content: flex-end;
     justify-items: center;
  }
+ @media(max-width:340px){
+    div.dataTables_wrapper div.dataTables_filter label{
+        display: flex;
+        justify-content: initial;
+        justify-items: center;
+        margin-top: 10px;
+     }
+ }
 
  table.dataTable>thead>tr>th:not(.sorting_disabled){
     text-align: center;
